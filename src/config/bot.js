@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Бот сделан Drifexом",
         // Activity type number (0 = Playing).
         type: 0,
       },
@@ -59,9 +59,9 @@ export const botConfig = {
   applications: {
     // Default questions shown when someone fills out an application.
     defaultQuestions: [
-      { question: "What is your name?", required: true },
-      { question: "How old are you?", required: true },
-      { question: "Why do you want to join?", required: true },
+      { question: "Как вас зовут?", required: true },
+      { question: "Сколько вам лет?", required: true },
+      { question: "Почему вы хотите присоединиться?", required: true },
     ],
 
     // Embed colors by application status.
@@ -159,9 +159,9 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "BYN",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "BYN",
       // Currency symbol shown in balances.
       symbol: "$",
     },
